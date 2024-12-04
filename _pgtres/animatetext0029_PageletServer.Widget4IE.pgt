@@ -1,0 +1,44 @@
+========== Description Part Begin ==========
+Title = animatetext0029
+ProgID = PageletServer.Widget4IE
+LastUpdateTime = 39784.001585648
+PreviewPath = 
+Description = Animate Text
+========== Description Part End ==========
+
+========== Parameter Part Begin ==========
+AnimateTextFontPara = Times New Roman,bold,normal,17
+AnimateTextStr = Animate   Text,            Support   IE 4,Hope you enjoy this script at your page,            <a href="http://www.sothink.com">Visit our Home Page</a>,
+DhtmlType = 1
+AnimateTextPara = 1,ffffff,ff0000,120,200,100,269,287,0,,4,ffffff,35
+========== Parameter Part End ==========
+
+========== Resource Part Begin ==========
+Resource Number = 1
+Animate.js=C:\ARQUIV~1\SOURCE~1\SOTHIN~1.5\DHTML\=
+========== Resource Part End ==========
+
+========== HTML Part Begin ==========
+Segment Number = 1
+Segment Position = cursor
+<script language="JavaScript">
+var srctecanimatetextinterval=287;
+var srctecanimatelayinterval=0;
+var srctecanimatebgcolor="#ffffff";
+var srctecanimatecolor="#ff0000";
+var srctecscrollsize=1;
+var srctecanimatemessage= new Array();
+srctecanimatemessage[0]='<p style="font-family:Times New Roman;">Animate   Text</p>';
+srctecanimatemessage[1]='<p style="font-family:Times New Roman;">            Support   IE 4</p>';
+srctecanimatemessage[2]='<p style="font-family:Times New Roman;">Hope you enjoy this script at your page</p>';
+srctecanimatemessage[3]='<p style="font-family:Times New Roman;">            <a href="http://www.sothink.com">Visit our Home Page</a></p>';
+</Script>
+<script type="text/javascript" src="animate.js"></script>
+<div style="background-color:#ffffff; HEIGHT: 120px; LEFT: 200px; POSITION: relative; TOP: 100px; WIDTH: 269px">
+<DIV id="srctectextanim" style="font-weight:bold; font-style:normal; font-size:17px; POSITION: relative; TOP: 35;" onclick="breakf()">
+<LAYER name="srctectextanim"></LAYER>
+</div>
+</div>
+===== Segment End =====
+========== HTML Part End ==========
+

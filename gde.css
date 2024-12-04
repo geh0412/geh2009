@@ -1,0 +1,49 @@
+body {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        margin: 0;
+        font-size: 80%;
+        font-weight: bold;
+        background: #cccc98;
+        }
+
+ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        }
+
+/* =-=-=-=-=-=-=-[Menu Six]-=-=-=-=-=-=-=- */
+
+#menu6 {
+        width: 200px;
+        margin: 10px;
+        }
+
+#menu6 li a {
+          height: 32px;
+          voice-family: "\"}\"";
+          voice-family: inherit;
+          height: 24px;
+        text-decoration: none;
+        }
+
+
+#menu6 li a:link, #menu6 li a:visited {
+        color: #8D9179;
+        display: block;
+        background: url(menu6.gif);
+        padding: 8px 0 0 10px;
+        }
+
+#menu6 li a:hover, #menu6 li #current, #menu6 li a:active {
+        color: #6C7250;
+        background: url(menu6.gif) 0 -32px;
+        padding: 8px 0 0 10px;
+        }
+-->
+p {text-align="JUSTIFY"}
+p.center {text-align="center"}
+p.legenda{text-align="right"}
+h1 {text-align="center"}
+
+A {text-color="blue"}
